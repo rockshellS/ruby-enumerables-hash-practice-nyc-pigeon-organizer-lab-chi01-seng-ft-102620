@@ -9,8 +9,7 @@ def nyc_pigeon_organizer(data)
          !new_hash[pigeon_name][key] = []
        end
     new_hash[pigeon_name][key].push(inner_key.to_s)
+      end
     end
   end
-end
-  
 end
